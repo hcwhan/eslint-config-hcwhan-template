@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 检查待提交的文件
+npx lint-staged
+
+# 如果是 vue项目 可开启 vue-tsc 检查
+# npx vue-tsc --noEmit --skipLibCheck
