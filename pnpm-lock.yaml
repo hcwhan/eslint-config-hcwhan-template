@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   eslint: ^8.16.0
-  eslint-config-hcwhan: ^0.0.1
+  eslint-config-hcwhan: ^0.0.6
   husky: ^8.0.1
   lint-staged: ^12.4.2
   prettier: ^2.6.2
@@ -12,7 +12,7 @@ specifiers:
 
 devDependencies:
   eslint: 8.16.0
-  eslint-config-hcwhan: 0.0.1
+  eslint-config-hcwhan: 0.0.6
   husky: 8.0.1
   lint-staged: 12.4.2
   prettier: 2.6.2
@@ -686,8 +686,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-hcwhan/0.0.1:
-    resolution: {integrity: sha512-wJ1AEa5+1oXJikLhTAyUgHQuqpINBIzRmvDuuX5Bd+JCQVuJEf/mVPl/raGb/KVv1DKfI9llu+/H/VAkabpKmA==}
+  /eslint-config-hcwhan/0.0.6:
+    resolution: {integrity: sha512-TDwRpid6OfBkaY9T6vCXDdYkreczs//JzF2aD9benUF1edYA7iiZmifCfEweTYQeRQvUCiEV88dIex2DzBifrA==}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.26.0_hzuh7e2up357pvq3mkokjvu2lq
       '@typescript-eslint/parser': 5.26.0_xztl6dhthcahlo6akmb2bmjmle

@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.16.0",
-    "eslint-config-hcwhan": "^0.0.1",
+    "eslint-config-hcwhan": "^0.0.6",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.2",
     "prettier": "^2.6.2",
@@ -19,17 +19,17 @@
     "vue": "^3.2.36"
   },
   "lint-staged": {
-      "*.vue": [
-          "eslint --fix --max-warnings 0",
-          "prettier --write"
-      ],
-      "*.{js,ts,json}": [
-          "eslint --fix --max-warnings 0",
-          "prettier --write"
-      ],
-      "*.{css,less}": [
-          "stylelint --fix --max-warnings 0",
-          "prettier --write"
-      ]
+    "*.vue": [
+      "eslint --fix --max-warnings 0",
+      "prettier --write"
+    ],
+    "*.{js,ts,json}": [
+      "eslint --fix --max-warnings 0",
+      "prettier --write"
+    ],
+    "*.{css,less}": [
+      "stylelint --fix --max-warnings 0",
+      "prettier --write"
+    ]
   }
 }
